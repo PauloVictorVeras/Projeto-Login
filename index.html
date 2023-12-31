@@ -16,10 +16,14 @@
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Crie sua conta para dar início a sua jornada.</p>
-                <input type="email" name="e-mail" id="ie-mail">
-                <input type="password" name="senha" id="isenha">
-                <input type="submit" value="Criar conta">
-                <input type="url" name="" id="">
+                <form action="formulario.html" method="post"> </form>
+                    <div class="campo">
+                        <label for="ie-mail">E-mail: </label><input type="email" name="e-mail" id="ie-mail" required minlength="6" maxlength="30" placeholder=" Insira seu e-mail">
+                    </div>
+                    <div class="campo">
+                        <label for="isenha">Senha:</label> <input type="password" name="senha" id="isenha" required minlength="8" maxlength="20" placeholder=" Senha">
+                    </div> 
+                    <input type="submit" value="Criar conta" id="icriarconta">              
             </div>
         </section>
     </main>

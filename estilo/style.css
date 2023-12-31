@@ -57,7 +57,10 @@ section#login > div#formulario {
 }
 
 input {
-    display: block;
+    display: inline-block;
+    background-color: lightpink;
 }
 
- 
+ input::placeholder{
+    font-weight: bold;
+ }
